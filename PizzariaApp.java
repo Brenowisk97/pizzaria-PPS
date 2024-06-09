@@ -12,12 +12,11 @@ public class Pizzaria App{
   //PizzariaCentro pizzariaCentro = new PizzariaCentro();
 
   //Interfaces
-  AbstractFactory factory = PizzariaFactory.getFactory(Localidade.Centro);
-
-    
-  //AbstractFactory factory = NewPizzariaBarraFactory();
+  //AbstractFactory factory = PizzariaFactory.getFactory(Localidade.Centro);
   //AbstractFactory factory = NewPizzariaCentroFactory();
 
+    
+  AbstractFactory factory = NewPizzariaBarraFactory();
   Pizza pizza = factory.pedirPizza(Sabor.Calabresa);
 
   System.out.println(pizza);
