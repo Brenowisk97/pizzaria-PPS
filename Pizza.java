@@ -2,7 +2,7 @@ package pattern.domain;
 
 import java.util.ArrayList;
 
-Abstract public class Pizza{
+public abstract  class Pizza{
   public static enum Sabor{
     Calabresa,
     Pepperoni,
